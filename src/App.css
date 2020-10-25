@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: 30px auto;
+  border: 6px solid #000000;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.title {
+  font-family: "arial black";
+  letter-spacing: -2px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  background: #F9F871;
+  box-shadow:  0 3px 3px 0 #D3D3D3;
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-items {
+  padding-left: 30px;
+}
+
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.item {
+  display: flex;
+  color: #412728;
+  justify-content: space-between;
+  margin: 8px 15px 8px 15px;
+  padding: 5px 20px 5px 30px;
+  box-shadow: 0 2px 3px 1px #D3D3D3;
+  background: #E2B659;
+}
+
+#list-title {
+  justify-content: center;
+  margin: initial;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.up-down {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #B87C4C;
+}
+
+.up {
+  padding-right: 5px;
+}
+
+.up:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.down {
+  padding-left: 5px;
+}
+
+.down:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+footer {
+  background: #F9F871;
+  box-shadow: 0 -1px 3px 0 #D3D3D3;
+  height: 40px;
+  margin-top: 9vh;
+}
