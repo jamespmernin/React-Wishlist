@@ -38,7 +38,7 @@ function List(props) {
       <h1 className="item" id="list-title">Your List</h1>
       {listItems.map(item =>
         <div className="item"><h2>{item}</h2>
-          <span className="up-down">
+          <span className="buttons">
             <h2 className="up" onClick={() => handleItemUpVote(item)}>Up</h2>
             <h2> | </h2>
             <h2 className="down" onClick={() => handleItemDownVote(item)}>Down</h2>

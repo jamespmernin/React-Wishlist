@@ -60,7 +60,7 @@ nav {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.up-down {
+.buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
