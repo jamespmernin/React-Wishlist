@@ -1,5 +1,6 @@
 import React from 'react';
 
+// This function renders the item information on screen
 function Item(props) {
   return (
     <div>

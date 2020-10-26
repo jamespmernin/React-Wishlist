@@ -72,8 +72,7 @@ nav {
 }
 
 .up:hover {
-  cursor: pointer;
-  font-weight: bolder;
+  cursor: pointer; /* Changing the cursor type is helpful visually for an end user */
 }
 
 .down {
@@ -82,9 +81,9 @@ nav {
 
 .down:hover {
   cursor: pointer;
-  font-weight: bolder;
 }
 
+/* This styling is applied to the otherwise empty footer in Footer.jsx */
 footer {
   background: #F9F871;
   box-shadow: 0 -1px 3px 0 #D3D3D3;

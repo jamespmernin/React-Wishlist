@@ -4,7 +4,7 @@ function Footer() {
 
   return (
     <div>
-      <footer></footer>
+      <footer></footer> {/* The footer does not have any content, but still needs to exist for formatting reasons */}
     </div>
   )
 }
